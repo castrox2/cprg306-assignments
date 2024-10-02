@@ -48,6 +48,15 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        {/* New Link to /week-2 folder */}
+        <Link href="/week-2">
+          <a className="text-blue-500 hover:underline">Go to Week 2</a>
+        </Link>
+
+        {/* New Link to /week-3 folder */}
+        <Link href="/week-3">
+          <a className="text-blue-500 hover:underline">Go to Week 3</a>
+        </Link>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
