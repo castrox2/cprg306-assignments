@@ -72,17 +72,20 @@ const ItemList = () => {
     quantity: 4,
     category: "household",
   };
+
+  return (
+    <div>
+      <Item
+        key={index}
+        name={item.name}
+        quantity={item.quantity}
+        category={item.category}
+      />
+    </div>
+  )
+
 }
 
-return (
-  <div>
-    <Item
-      key={index}
-      name={item.name}
-      quantity={item.quantity}
-      category={item.category}
-    />
-  </div>
-)
+
 
 export default ItemList;
