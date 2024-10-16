@@ -30,7 +30,9 @@ export default function Home() {
           <li className="mb-2">
             <a href="/week-4" className="text-blue-500 hover:underline">Week 4</a>
           </li>
-          
+          <li className="mb-2">
+            <a href="/week-5" className="text-blue-500 hover:underline">Week 5</a>
+          </li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
